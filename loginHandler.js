@@ -30,14 +30,14 @@ const loginSubmit = e => {
 	// message for successful login
 	firebase.auth().signInWithEmailAndPassword(email, password).then(function(user){
 		// Redirect to chat
-		window.location.href = "/chat.html"
+		window.location.href = "./chat.html"
 	});
 
 
 	firebase.auth().onAuthStateChanged(function(user) {
 		if (user) {
 	    // User is signed in.
-	    window.location = "chat.html";
+	    window.location = "./chat.html";
 	    console.log(user.uid);
 	    // window.location.assign("chat.html");
   	} else {

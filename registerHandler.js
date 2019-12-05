@@ -44,7 +44,7 @@ const registerSubmit = e => {
 	});
 	console.log("successful")
 	alert("Register successful");
-    window.location = "/";
+	window.location = "./index.html";
 
 }
 
