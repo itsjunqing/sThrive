@@ -1,3 +1,11 @@
-# Monash Hackathon 2019
+# sThrive
+a simple chat application with an integration with Moodle
 
-2019-11-29
+## How to run
+1. Pull the entire repository
+2. Run `node app.js`
+3. Open `localhost:3000` in Chrome browser
+
+## Default login credentials
+Email: helloworld@gmail.com<br>
+Password: helloworld
