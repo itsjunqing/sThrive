@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chat Room</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+	<link rel="stylesheet"type="text/css" href="style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<a href="#" class="navbar-brand"><i class="fas fa-comments"></i> Chat Room</a>
+		<div class="navbar-right">	
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="#" class="nav-link"><i class="fas fa-chalkboard"></i> Moodle</a>
+				</li>	
+
+				<li class="nav-item">
+					<a href="./profiles.html" class="nav-link"><i class="fas fa-id-card" id="user-profile"></i> Chats Info</a>
+					<!-- <button class="nav-link"><i class="fas fa-id-card"></i> User's Profile</button> -->
+				</li>
+				<li class="nav-item">
+					<a href="./index.html" class="nav-link" id="signOutBtn"><i class="fas fa-sign-out-alt"></i> Sign Out</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div></div>
+	<div class="row mx-3" id="level1">
+		<div class="col-sm-10 col-md-9 col-lg-4 mx-auto">	
+			<div class="card chats-wrap my-5">
+				<div class="card-body">
+
+					<!-- <h4 class="text-center" id="people-title">Chats</h4> -->
+					<div class="text-center h4" id="people-title">Jessica's Chats Partners</div>
+					<hr>
+
+					<div class="card col-10 mx-auto">
+						<div class="card-body">	
+							<img src="./user-solid.svg" class="rounded" alt="Begin" width="8%">
+							<a href="#" class="btn btn-outline-white" id="person1" style="font-size: 1.2rem !important;"> Alice</a>
+						</div>
+					</div>
+
+					<div class="card mt-3 col-10 mx-auto">
+						<div class="card-body">	
+							<img src="./user-solid.svg" class="rounded" alt="Begin" width="8%">
+							<a href="#" class="btn btn-outline-white" id="person2" style="font-size: 1.2rem !important;"> Derrick</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-10 col-md-9 col-lg-8 mx-auto" id="level2">	
+			<div class="card-deck chats-wrap my-5" id="level3">
+				<div class="card-body" >
+					<h4 class="text-center" id="chat-title">Interests</h4>
+					<hr>
+					
+					<div id="interests-boxes">
+						<h4 class="my-4 font-weight-bold text-center">Computer Science</h4>
+						<div class="row mx-4 text-center row-interests1">
+
+							<div class="card col-4 card-interest1">
+								<div class="card-body">	
+									<h5 class="mb-3 font-weight-bold">Algorithms</h5>
+									<a href="https://medium.com/@yk392/dijkstra-algorithm-key-to-finding-the-shortest-path-google-map-to-waze-56ff3d9f92f0" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+
+							<div class="card col-4 card-interest1">
+								<div class="card-body">
+									<h5 class="mb-3 font-weight-bold">Security</h5>
+									<a href="#" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+
+							<div class="card col-4 card-interest1">
+								<div class="card-body">
+									<h5 class="mb-3 font-weight-bold">Data</h5>
+									<a href="#" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+						</div>
+						
+						<h4 class="my-4 font-weight-bold text-center">Business</h4>
+						<div class="row mx-4 text-center row-interests2">
+
+							<div class="card col-4 card-interest2">
+								<div class="card-body">	
+									<h5 class="mb-3 font-weight-bold">World Economy</h5>
+									<a href="#" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+
+							<div class="card col-4 card-interest2">
+								<div class="card-body">
+									<h5 class="mb-3 font-weight-bold">Marketing</h5>
+									<a href="#" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+
+							<div class="card col-4 card-interest2">
+								<div class="card-body">
+									<h5 class="mb-3 font-weight-bold">Strategies</h5>
+									<a href="#" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+						</div>
+						
+						<h4 class="my-4 font-weight-bold text-center">Computer Science & Business</h4>
+						<div class="row mx-4 text-center row-interests3">
+
+							<div class="card col-4 card-interest3">
+								<div class="card-body">	
+									<h5 class="mb-3 font-weight-bold">Data Management</h5>
+									<a href="#" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+
+							<div class="card col-4 card-interest3">
+								<div class="card-body">
+									<h5 class="mb-3 font-weight-bold">Softwares</h5>
+									<a href="#" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+
+							<div class="card col-4 card-interest3">
+								<div class="card-body">
+									<h5 class="mb-3 font-weight-bold">Business IT Dev.</h5>
+									<a href="#" class="btn btn-outline-white"><i class="fas fa-graduation-cap"></i> Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="row mx-3">
+		<div class="col-sm-10 col-md-9 col-lg-4  mx-auto">	
+			<div class="card chats-wrap my-5">
+				<div class="card-body">
+					<h5 class="text-center">Chats</h5>
+					<hr>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-10 col-md-9 col-lg-8 mx-auto">	
+			<div class="card chats-wrap my-5">
+				<div class="card-body">
+					<h5 class="text-center">Chat Room</h5>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+    <!-- <div class="body-wrap row">
+		
+		<div class="chats-wrap col-sm-12 col-xl-4"> -->
+    <!-- <div class="h1" id="chats-title">Chats</div> -->
+    <!-- <h1 class="chats-title">Chats</h1>
+		</div>
+
+		<div class="message-wrap col-sm-12 col-xl-8">
+			<button type="button" class="btn btn-light"><i class="fas fa-video"></i>  Webcam</button>
+			<button type="button" class="btn btn-light"><i class="fas fa-microphone-slash"></i>  Mute</button>
+			<button type="button" class="btn btn-light"><i class="fas fa-arrow-circle-right"></i>  Next Person</button>
+		</div>
+	</div> -->
+
+
+	
+	<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+	<script type="text/javascript"> 
+		const firebaseConfig = {
+			apiKey: "AIzaSyB9TuQQgCoeqvGrx3hgK0CvOJOWmSNPDNI",
+			authDomain: "wachacha-project.firebaseapp.com",
+			databaseURL: "https://wachacha-project.firebaseio.com",
+			projectId: "wachacha-project",
+			storageBucket: "wachacha-project.appspot.com",
+			messagingSenderId: "712098166009",
+			appId: "1:712098166009:web:6998f854a659ca22d9de28",
+			measurementId: "G-S57YQET8KS"
+		};
+		firebase.initializeApp(firebaseConfig);
+		firebase.auth().onAuthStateChanged(function(user) {
+			if (user);
+
+		const signOutClick = e => {
+    		e.preventDefault();
+    	firebase.auth().signOut().then(user=>{
+        console.log(user);
+        console.log("Sign out sucessful");
+        // window.location.replace('index.html')
+   		})
+		}
+	}); </script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script src="index.js"></script>
+	<script src="chatHandler.js"></script>
+</body>
+</html>

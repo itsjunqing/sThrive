@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Strive Reset</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="h1 text-center mt-5"><img src="./sthrive.png" class="img" width="80px">sThrive Password Reset</div>
+		<div class="row">
+			<div class="col-sm-10 col-md-9 col-lg-5 mx-auto">	
+
+				<div class="card card-signin my-5">
+					<div class="card-body">
+						<form action="" method="POST" id="resetForm">
+							<h4 class="text-center mb-4">Reset Password</h4>
+							<div class="form-label-group">
+								<label for="email">Email Address:</label>
+								<input type="email" id="email" class="form-control" placeholder="Email address" required>
+							</div>
+							<button class="mt-4 btn btn-lg btn-primary btn-block text-uppercase" type="submit" id="formBtn">Reset</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="resetHandler.js"></script>
+</body>
+</html>

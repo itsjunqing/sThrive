@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  /*font: 13px Helvetica, Arial;*/
+  /*font-family: 'Inconsolata', monospace !important;*/
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: "Solway", serif;
+}
+
+.navbar {
+  /*background-color: #000080 !important;*/
+  background-color: #0275d8 !important;
+  padding: 0.8rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-right {
+  /*float: right;*/
+}
+
+.conversation-wrap {
+  height: 800px;
+  /*height: 90vh;*/
+  background-color: #fafad2;
+}
+
+.chats-wrap {
+  height: 100%;
+  border: 0.2rem !important;
+  border-radius: 0.7rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.chats-title {
+  margin: 2rem !important;
+  border-bottom: solid;
+}
+
+.btn-light {
+  background-color: #0275d8 !important;
+  border-color: #0275d8 !important;
+  border-radius: 0.5rem;
+  color: #ffffff !important;
+  size: 20px;
+}
+
+.card-chat {
+  border: 0.2rem !important;
+  border-radius: 0.7rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.4);
+  background: pink;
+}
+
+/* for registration */
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.form-label-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+#formBtn {
+  border-radius: 1.5rem;
+}
+
+.card-interest1 {
+  border-radius: 1.5rem !important;
+  background-image: linear-gradient(to bottom right, #db4437, #ffc0cb);
+}
+
+.card-interest2 {
+  border-radius: 1.5rem !important;
+  /*background-image: linear-gradient(to bottom right, red , yellow);*/
+  background-image: linear-gradient(to bottom left, #f4b400, #fffacd);
+}
+
+.card-interest3 {
+  border-radius: 1.5rem !important;
+  background-image: linear-gradient(to bottom right, #0f9d58, #98fb98);
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages li {
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+  background: #eee;
+}
